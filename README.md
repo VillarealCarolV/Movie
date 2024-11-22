@@ -1,3 +1,6 @@
+git -c user.name="VillarealCarolV" -c user.email="carolvillareal16@gmail.com" commit -m "My Project"
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
