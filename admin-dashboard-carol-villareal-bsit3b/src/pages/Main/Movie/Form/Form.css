@@ -1,0 +1,234 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.error-message {
+  color: #e74c3c;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.loading-message {
+  text-align: center;
+  color: #3498db;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.search-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-container input[type="text"] {
+  width: calc(100% - 110px);
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.search-container button {
+  padding: 8px 15px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #3498db;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background-color: #2980b9;
+}
+
+.searched-movie p {
+  padding: 8px;
+  margin: 5px 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.searched-movie p.selected {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.paginations {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.paginations button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #0056b3;
+  cursor: pointer;
+}
+
+.paginations button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.save-btn,
+.back-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.save-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+.save-btn:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.save-btn:active {
+  background-color: #388e3c;
+}
+
+.back-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+}
+
+.back-btn:hover {
+  background-color: #e53935;
+  transform: scale(1.05);
+}
+
+.back-btn:active {
+  background-color: #c62828;
+}
+
+
+.container {
+  /* max-width: 800px;
+  margin: 20px auto; */
+  /* padding: 20px; */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.field {
+  margin-bottom: 15px;
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+.poster-image {
+  display: block;
+  margin: 0 auto 15px auto;
+  max-width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cast-and-crew ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cast-and-crew ul li {
+  margin-bottom: 10px;
+}
+
+.cast-and-crew input {
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.photo-gallery {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.photo-item {
+  width: 515px;
+  /* max-width: 150px; */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.actions button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.actions button:hover {
+  opacity: 0.9;
+}
+
+.actions .cancel-button {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.actions button:not(.cancel-button) {
+  background-color: #3498db;
+  color: #fff;
+}
